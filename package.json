@@ -17,6 +17,10 @@
         "hdb": "^0.19.5",
         "passport": "^0.6.0"
     },
+    "devDependencies": {
+        "@sap/ux-specification": "^1.102.6",
+        "sqlite3": "^5.1.1"
+    },
     "scripts": {
         "start": "cds run",
         "watch-risks": "cds watch --open risks/webapp/index.html?sap-ui-xx-viewCache=false"
@@ -55,9 +59,5 @@
         "hana": {
             "deploy-format": "hdbtable"
         }
-    },
-    "devDependencies": {
-        "@sap/ux-specification": "^1.102.6",
-        "sqlite3": "^5.1.1"
     }
 }
